@@ -21,14 +21,6 @@ function errorHandler(err, req, res, next) {
     //json response
     res.json(res.locals.error);
   }
-
-  //   res.locals.title = "Error page";
-  //   res.render("error");
-
-  //or
-  //   res.render("error", {
-  //     title: "Error page",
-  //   });
 }
 
 module.exports = {
